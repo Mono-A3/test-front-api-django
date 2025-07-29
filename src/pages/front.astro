@@ -1,0 +1,6 @@
+---
+const res = await fetch('http://127.0.0.1:8000/api/hello/');
+const data = await res.json();
+---
+
+<h1 class='text-2xl font-bold'>{data.message}</h1>
